@@ -1,0 +1,43 @@
+{
+    "rewrites": [
+        {
+            "source": "/p/(.*)",
+            "destination": "https://dev.qawmai.com/p/$1"
+        },
+        {
+            "source": "/xyz/(.*)",
+            "destination": "https://jsonplaceholder.typicode.com/$1"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "https://dev.qawmai.com/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/p/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Credentials",
+                    "value": "true"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization, Set-Cookie"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                }
+            ]
+        }
+    ]
+}
