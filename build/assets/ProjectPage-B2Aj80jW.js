@@ -1,0 +1,1 @@
+import{j as r}from"./index-P2NOgU5f.js";import{R as t}from"./RouteBreadCrumb-CrCKSZOu.js";import"./breadcrumb.esm-BMVDgLAe.js";import"./index.esm-B-ADObUs.js";import"./capitalize-CJbizlXP.js";import"./upperFirst-CygeGpjd.js";const p=()=>r.jsxs("div",{className:"",children:[r.jsx(t,{}),r.jsx("h1",{children:"Project Page"})]});export{p as default};

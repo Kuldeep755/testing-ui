@@ -1,0 +1,1 @@
+import{j as s}from"./index-P2NOgU5f.js";const a=({header:e,description:r})=>s.jsxs("div",{className:"text-gray-700",children:[s.jsx("h3",{children:e}),s.jsx("p",{className:"text-xs text-gray-400 font-normal",children:r})]});export{a as M};
